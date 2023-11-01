@@ -1,4 +1,3 @@
--- New department names
 INSERT INTO department (name)
 VALUES 
 ('Human Resources'),
@@ -6,7 +5,6 @@ VALUES
 ('Customer Support'),
 ('Product Management');
 
--- New role titles, salaries, and department IDs
 INSERT INTO role (title, salary, department_id)
 VALUES
 ('Database Administrator', 85000, 2),
@@ -18,7 +16,6 @@ VALUES
 ('Customer Support Manager', 110000, 3),
 ('Research Analyst', 120000, 2);
 
--- New employee data with first names, last names, role IDs, and manager IDs
 INSERT INTO employee (first_name, last_name, role_id, manager_id)
 VALUES 
 ('Emily', 'Smith', 1, null),
